@@ -25,10 +25,10 @@ $('button')
 #### $(selectorText, parentElement<optional>)
 matches the elements with the `selectorText`, if `parentElement` defined it will query in it
 
-#### on(_eventName_, _handler_)
+#### on(eventName, handler)
 adds an event handler to the matched elements
 
-#### off(_eventName_, _handler_)
+#### off(eventName, handler)
 removes the event handler from the matched elements
 
 #### css(obj)

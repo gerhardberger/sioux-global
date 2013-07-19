@@ -1,0 +1,24 @@
+{
+    "name": "sioux-global",
+    "version": "0.0.1",
+    "description": "a module for sioux projects containing the basic features",
+    "main": "index.js",
+    "dependencies": {
+        "node-touch": "*"
+        , "insert-css": "*"
+    },
+    "keywords": [
+        "sioux",
+        "ui",
+        "global"
+    ],
+    "repository": {
+        "type" : "git",
+        "url" : "http://github.com/gerhardberger/sioux/global.git"
+    },
+    "author": {
+        "name": "Gerhard Berger",
+        "email": "93.morph@gmail.com",
+        "url": "https://twitter.com/gerhard_berger"
+    }
+}

@@ -1,12 +1,13 @@
 {
     "name": "sioux-global",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "a module for sioux projects containing the basic features",
     "main": "index.js",
     "dependencies": {
         "node-touch": "*"
         , "insert-css": "*"
     },
+    "styles": ["style.css"],
     "keywords": [
         "sioux",
         "ui",

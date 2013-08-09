@@ -12,6 +12,8 @@ body {
 .ui-window {
 	position: fixed;
 
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 
@@ -19,4 +21,37 @@ body {
 
 	overflow: auto; 
 	-webkit-overflow-scrolling: touch;
+}
+
+.ui-button {
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+	background: transparent;
+	border: 1px solid;
+	color: white;
+	padding: 16px 32px;
+	border-radius: 40px;
+	-webkit-transition: all .3s ease-in-out;
+}
+.ui-button.hover {
+	color: grey;
+}
+.ui-button::after {
+	width: 100%;
+	height: 100%;
+	background: white;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 40px;
+	-webkit-transition: all .3s ease-in-out;
+	opacity: 0;
+	-webkit-transform: scale(0);
+}
+.ui-button.hover::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
 }

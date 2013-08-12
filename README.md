@@ -1,5 +1,7 @@
 ## sioux-global
 
+More info from sioux: [gerhardberger.github.io/sioux/](http://gerhardberger.github.io/sioux/)
+
 The collection of basic features that are important and useful for working with the other parts of the `sioux` project. It is optional to make it global, but it is recommended. The features listed after, are basically just shorthands to the DOM ones.
 
 ``` js
